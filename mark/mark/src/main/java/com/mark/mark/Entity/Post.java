@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Post {
     // it is my entity class
+    // it is my entity class
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
